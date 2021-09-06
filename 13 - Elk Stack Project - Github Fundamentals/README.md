@@ -117,7 +117,7 @@ SSH into the control node and follow the steps below:
 - name: Config Web VM with Docker
   hosts: elk
   become: true
-  tasks:_Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+  tasks:
 ```
 This will run the playbook on the elk group.
 
