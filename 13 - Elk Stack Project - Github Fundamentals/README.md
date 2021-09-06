@@ -123,7 +123,7 @@ This will run the playbook on the elk group.
 
 ```
 ---
-- name: Config Web VM with Docker
+- name: Config Elk VM with Docker
   hosts: webservers
   become: true
   tasks:
