@@ -2,13 +2,13 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[ELK Network Diagram](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20GitHub%20Fundamentals/Images/NetworkDiagram)
+[ELK Network Diagram](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20Github%20Fundamentals/Images/NetworkDiagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [ELK Install Playbook](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20GitHub%20Fundamentals/Playbooks/install-elk.yml)
-  - [Filebeat Playbook](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20GitHub%20Fundamentals/Playbooks/filebeat-playbook.yml)
-  - [Metricbeat Playbook](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20GitHub%20Fundamentals/Playbooks/metricbeat-playbook.yml)
+  - [ELK Install Playbook](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20Github%20Fundamentals/Playbooks/install-elk.yml)
+  - [Filebeat Playbook](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20Github%20Fundamentals/Playbooks/filebeat-playbook.yml)
+  - [Metricbeat Playbook](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20Github%20Fundamentals/Playbooks/metricbeat-playbook.yml)
 
 Other playbook files can be found in the 'Playbooks' folder.
 
@@ -75,7 +75,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[docker ps screenshot](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20GitHub%20Fundamentals/Images/docker_ps)
+[docker ps screenshot](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20Github%20Fundamentals/Images/docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
