@@ -10,7 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - [Filebeat Playbook](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20Github%20Fundamentals/Playbooks/filebeat-playbook.yml)
   - [Metricbeat Playbook](https://github.com/Zoott/Senko-S-Bootcamp/blob/master/13%20-%20Elk%20Stack%20Project%20-%20Github%20Fundamentals/Playbooks/metricbeat-playbook.yml)
 
-Other playbook files can be found in the 'Playbooks' folder.
+Other playbook files can be found in the 'Playbooks' directory on GitHub.
 
 This document contains the following details:
 - Description of the Topology
