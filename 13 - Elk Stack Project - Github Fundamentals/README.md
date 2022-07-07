@@ -92,9 +92,9 @@ These Beats allow us to collect the following information from each machine:
 - Metricbeat will collect the metrics.
 
 ### Using the Playbook
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+In order to use the playbook, we will need to have an Ansible control node already configured. Assuming we have such a control node provisioned: 
 
-SSH into the control node and follow the steps below:
+We SSH into the control node and follow the steps below:
 - Copy the playbook files to Ansible Docker Container (or make them in Ansible Container).
 - Update the hosts file to include:
 
@@ -107,7 +107,7 @@ SSH into the control node and follow the steps below:
    10.1.0.4 ansible_python_interpreter=/usr/bin/python3
 
 - Also update ansible.cfg to set the remote_user parameter since all of our VM's in this project use the same username.
-- Run the playbooks, and navigate to http://20.37.38.87/setup.php (For Web Servers with DVWA containers) or http://20.58.191.189:5601 (for ElkServer) to check that the installation worked as expected.
+- We run the playbooks, and navigate to http://20.37.38.87/setup.php (For Web Servers with DVWA containers) or http://20.58.191.189:5601 (for ElkServer) to check that the installation worked as expected.
 
 - Example of a playbook file is install-elk.yml
 - To run playbooks on specific machines, we will update the hosts file with groups of machines with which we operate. To run the playbook on a specific group we will edit the playbook file to specify which hosts group will be affected. For example:
@@ -135,7 +135,7 @@ This will run the playbook on the webservers group.
  - http://[ElkServer_Public_IP]:5601
 
 
-As a bonus I will provide some of the commands used in this project:
+As a bonus I have provided some of the commands used in this project:
 
 - ssh RedAdmin@[Jump_Box_Public_IP] - to connect to the Jump Box machine.
 - sudo docker ps -a  - to list the installed containers
